@@ -1,5 +1,5 @@
 checks for Persons:
- - row_count > 2
- - missing_count(PERSONID) < 5
+ - row_count > 0
+ - missing_count(PERSONID) < 0
 
  
