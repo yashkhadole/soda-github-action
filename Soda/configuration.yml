@@ -1,4 +1,4 @@
-data_source example_datasourceYash:
+data_source example_datasourceyash:
      type: snowflake
      username: YASH
      password: Welcome@5300
