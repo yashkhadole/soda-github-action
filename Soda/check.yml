@@ -1,0 +1,5 @@
+checks for my_table:
+ - row_count > 2
+ - missing_count(PERSONID) < 2
+
+ 
