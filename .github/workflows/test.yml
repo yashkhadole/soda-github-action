@@ -1,5 +1,8 @@
 name: Scan for data quality
-on: pull_request
+on:
+  push:
+    branches:
+      - main
  
    
 jobs:
