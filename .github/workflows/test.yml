@@ -14,7 +14,7 @@ jobs:
         uses: sodadata/soda-github-action@v1.0.2
         with:
          soda_library_version: v1.0.4
-         data_source: test_data
+         data_source: example_datasourceYash
          configuration: ./Soda/configuration.yml
          checks: ./Soda/checks.yml
  
@@ -28,6 +28,6 @@ jobs:
          SNOWFLAKE_PASSWORD:  ${{ secrets.SNOWFLAKE_PASSWORD }}
         with:
          soda_library_version: v1.0.4
-         data_source: test_data
+         data_source: example_datasourceYash
          configuration: ./Soda/configuration.yml
          checks: ./Soda/checks.yml
