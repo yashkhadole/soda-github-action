@@ -1,4 +1,4 @@
-checks for my_table:
+checks for Persons:
  - row_count > 2
  - missing_count(PERSONID) < 2
 
